@@ -20,7 +20,7 @@ let segundoNumero = prompt("Digite outro numero!")
 
 const soma = Number(primeiroNumero) + Number(segundoNumero)
 
-console.log(soma)*/
+console.log(soma)
 
 console.log("Exercício de escrita de código 1") 
 
@@ -54,11 +54,40 @@ const divisivel1 = num2 % num1
 console.log("O primeiro numero é maior que segundo?", num1 > num2)
 console.log("O primeiro numero é igual ao segundo?", num1 === num2) 
 console.log("O primeiro numero é divisível pelo segundo?", divisivel === 0)
-console.log("O segundo numero é divisível pelo primeiro?", divisivel1 === 0)
+console.log("O segundo numero é divisível pelo primeiro?", divisivel1 === 0)*/
 
 // Desafio
+// a)
+const tempF = 77
+const fParak = (tempF - 32) *(5/9) + 273.15
+console.log("77 graus Fahreneit são:",fParak, "em Kelvin")
 
+//b)
+const tempC = 80 
+const cParaF = (tempC) * (9/5) + 32
+console.log("80 graus Celsius são",cParaF, "em Fahreneit")
 
+//c) 
+const tempc1 = 30
+const celsParaFah = (tempc1) * (9/5) + 32
+const fahParaKel = (celsParaFah - 32) *(5/9) + 273.15
+console.log("30 graus celsius são:", celsParaFah, "e", fahParaKel, "em Fahreneit")
 
+//d) 
 
+const tempDesejada = prompt("Insira a temperatura em Celsius:")
+const celsiusParaFahr = (tempDesejada) * (9/5) + 32
+const fahrParaKelv = (celsiusParaFahr - 32) *(5/9) + 273.15
+console.log(tempDesejada,"em graus celsius são:", celsiusParaFahr, "e", fahrParaKelv, "em Fahreneit")
 
+// Desafio 2
+// a)
+const valorQuiloHora = 0.05
+const custoMes = valorQuiloHora * 280
+console.log("Uma residencia com consumo de 280 quilowatt-hora pagará R$:", custoMes)
+
+//b)
+const valorQuiloHora = 0.05
+const custoMes = valorQuiloHora * 280
+const custoComDesconto = custoMes * 0.85
+console.log("Uma residencia com consumo de 280 quilowatt-hora pagará com descontop de 15% R$:", custoComDesconto)
