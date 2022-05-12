@@ -30,7 +30,7 @@ console.log(comidasPreferidas[4])
 //c)
 const pergComidaPref = prompt(`Qual a sua comida preferida?`)
 comidasPreferidas[1] = pergComidaPref
-console.log(comidasPreferidas)*/
+console.log(comidasPreferidas)
 
 //3-a)
 let listaDeTarefas = []
@@ -44,3 +44,18 @@ console.log(listaDeTarefas)
 const indiceDeTarefa = prompt(`Qual tarefa foi realizada? Digite 0, 1, 2`)
 listaDeTarefas.splice(indiceDeTarefa, 1)
 console.log(listaDeTarefas)
+
+//Desafios
+
+let frase = []
+let digiteUmaFrase = prompt('Digite uma frase"')
+let fraseDigitadaSem = digiteUmaFrase.split(" ")
+console.log(fraseDigitadaSem)*/
+
+
+//b)
+const frutas = ["Banana", "Morango", "Abacaxi", "Laranja", "Ameixa"]
+console.log(frutas.indexOf("Abacaxi"))
+console.log(frutas.length)
+
+
