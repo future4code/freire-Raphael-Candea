@@ -111,7 +111,13 @@ function checaIgualdadeDesconsiderandoCase(string1, string2) {
 
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
-  // implemente sua lógica aqui
+  const anoNascimento = +prompt(`Qual seu ano de nascimento?`)
+  const anoAtual = +prompt(`Qual ano atual`)
+  const anoEmissao = +prompt(`Qual ano de emissão identidade?`)
+   
+  const menoresVinte = anoAtual - anoEmissao <= 20
+   const entreVinteECinquenta = anoAtual - anoEmissao >20 <=50
+   const 
 
 }
 
