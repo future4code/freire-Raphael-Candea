@@ -3,8 +3,9 @@
 //B) ele da erro dizendo que não é uma função
 
 // Exercícios escirta 2
-//A) essa função é para o úsuário inserir um texto e passar ele para letras minúsculas e incluir cenoura
-//b) I. 
+//A) essa função é para o úsuário inserir um texto retorna um valor boleano
+//b) I. true/true/true
+     
 
 
 /* Exercícios escrita 1
