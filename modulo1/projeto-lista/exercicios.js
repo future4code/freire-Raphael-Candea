@@ -1,6 +1,6 @@
 // EXEMPLOS DE IMPLEMENTAÇÃO ---------------------------------------------------------------
 
-// EXERCÍCIO 0A
+/* EXERCÍCIO 0A
 function soma(num1, num2) {
   // implemente sua lógica aqui
   return num1 + num2
@@ -107,28 +107,45 @@ function checaIgualdadeDesconsiderandoCase(string1, string2) {
   return minusculas
 
 
-}
+}*/
 
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
-  const anoNascimento = +prompt(`Qual seu ano de nascimento?`)
-  const anoAtual = +prompt(`Qual ano atual`)
-  const anoEmissao = +prompt(`Qual ano de emissão identidade?`)
+  let anoAtual = +prompt(`Qual ano atual`)
+  let anoNascimento = +prompt(`Qual seu ano de nascimento?`)
+  let anoEmissao = +prompt(`Qual ano de emissão identidade?`)
    
-  const menoresVinte = anoAtual - anoEmissao <= 20
-   const entreVinteECinquenta = anoAtual - anoEmissao >20 <=50
-   const 
+  let idadeAtual = anoAtual - anoNascimento
+  let tempoCarteira = anoAtual - anoEmissao
 
+  let carteiraIdentidadeVinte = idadeAtual <= 20 && tempoCarteira >= 5
+  let entreVinteECinquenta = idadeAtual > 20 && idadeAtual <= 50 && tempoCarteira >= 10
+  let acimaCinquenta = idadeAtual > 50 && tempoCarteira >= 15
+
+   console.log(carteiraIdentidadeVinte || entreVinteECinquenta || acimaCinquenta)
 }
 
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
-  // implemente sua lógica aqui
+  let multiplosQuatrocentos = ano % 400 === 0
+  let multiploQuatro = ano % 4 === 0 && ano % 100 !== 0
+
+  return multiplosQuatrocentos || multiploQuatro
+  
+ 
 
 }
 
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
-  // implemente sua lógica aqui
+  let idadeLabenu = prompt(`Você tem mais de 18 anos?`)
+  let ensinoMedio = prompt(`Você possui  o ensino médio?`)
+  let disponibilidade = promt(`Você possui diponibilidade exclusiva durante os horários do curso?`)
+
+  let validacaoIdade = idadeLabenu >= 18
+  let validacaoEnsino = ensinoMedio 
+  let validacaoDisp = disponibilidade
+
+  return validacaoIdade && validacaoEnsino && validacaoDisp
 
 }
