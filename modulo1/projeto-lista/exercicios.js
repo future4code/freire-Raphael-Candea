@@ -142,10 +142,10 @@ function checaValidadeInscricaoLabenu() {
   let ensinoMedio = prompt(`Você possui  o ensino médio?`)
   let disponibilidade = promt(`Você possui diponibilidade exclusiva durante os horários do curso?`)
 
-  let validacaoIdade = idadeLabenu >= 18
+  let validacaoIdade = idadeLabenu
   let validacaoEnsino = ensinoMedio 
   let validacaoDisp = disponibilidade
 
-  return validacaoIdade && validacaoEnsino && validacaoDisp
+  console.log(validacaoIdade && validacaoEnsino && validacaoDisp)
 
 }
