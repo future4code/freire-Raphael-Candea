@@ -1,4 +1,4 @@
-// Exercicícios de interpretação 
+/* Exercicícios de interpretação 
 //1)
  //A) Matheus Nachtergaele
 //    Virginia Cavendish
@@ -97,3 +97,26 @@ receber(sacolaoUm)
 receber(sacolaoDois)
 receber(sacolaoTres)
 console.log(carrinho)
+
+//Desafio
+
+const perguntarPessoa = ()=> {
+    const nomeUsuario = prompt('Qual nome do usurário?')
+    const idadeUsuario = +prompt('Qual a sua idade?') 
+    const profUsuario = prompt('Qual a profissão do usuário?')
+    
+    const usuario = {
+        nome: nomeUsuario,
+        idade: idadeUsuario,
+        profissao: profUsuario,
+
+
+    };
+    console.log(usuario)
+    console.log(typeof usuario)
+    
+};
+perguntarPessoa()*/
+
+//2)
+
