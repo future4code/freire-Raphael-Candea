@@ -69,3 +69,62 @@
 // } else {
 //     console.log('Escolha outro filme')
 // }
+
+// Desafio
+// 1)
+
+// generoDoFilme = prompt('Qual gênero do filme vamos assistir?')
+// precoIngresso = prompt('Qual valor do ingresso?')
+
+// if (generoDoFilme === 'Fantasia' && precoIngresso < 15) {
+//     let qualLanche = prompt('Qual lanchinho você vai comprar?') 
+//     console.log('Bom filme', 'Aproveite seu',qualLanche)
+// } else {
+//    console.log('Escolha outro filme')
+// }
+
+// 2)
+
+let nomeCompleto = prompt('Qual seu nome completo?')
+let tipoDeJogo = prompt('Qual tipo de jogo vai assistir? Use IN internacional ou DO para doméstico').toUpperCase()
+let etapaDoJogo = prompt('Qual etapa do jogo vai assistir? Use SF (semi final), DT (disputa terceiro), FI final').toUpperCase()
+let categoria = +prompt('Qual a categoria? A 1, 2, 3 ou 4?')
+let quantidadeDeIngressos = +prompt('Quantidade de ingressos?')
+
+let valorIngresso
+
+if (tipoDeJogo === 'DO' &&  etapaDoJogo === 'SF' && categoria === 1) {
+    console.log('R$ 1.320')
+} else if (tipoDeJogo === "DO" && etapaDoJogo === 'SF' && categoria === 2) {
+    console.log('R$ 880')
+} else if (tipoDeJogo === 'DO' &&  etapaDoJogo === 'SF' && categoria === 3) {
+    console.log('R$ 550')
+} else if (tipoDeJogo === 'DO' &&  etapaDoJogo === 'SF' && categoria === 4) {
+    console.log('R$ 220')
+} else if (tipoDeJogo === 'DO' &&  etapaDoJogo === 'DT' && categoria === 1) {
+    console.log('R$ ')
+}
+
+// let valorIngresso
+// switch (valorIngresso) {
+//     case 'tipoDeJogo === 'DO' &&  etapaDoJogo === 'SF' && categoria === 1':
+//         console.log('R$ 1320')
+//         break;
+//     case 'tipoDeJogo' === "DO" && etapaDoJogo === 'SF' && categoria === 2':
+//         console.log('R$ 880')
+//         break
+
+
+//     default:
+//         break;
+// }
+
+console.log('----Dados da compra----')
+console.log('Nome do cliente:', nomeCompleto)
+console.log('Tipo de jogo:', tipoDeJogo)
+console.log('Etapa do jogo:', etapaDoJogo)
+console.log('Categoria:', categoria )
+console.log('Quantidade de ingressos:', quantidadeDeIngressos)
+console.log('----Valores----')
+console.log('Valor do ingresso:', valorIngresso )
+console.log('Valor total', valorIngresso * quantidadeDeIngressos)
