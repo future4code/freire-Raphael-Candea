@@ -89,7 +89,7 @@ const produtos = [
 //         return item.nome.includes("Ypê")
 //          })
           
-//          console.log(nomeItens)
+//  console.log(nomeItens)
 
 //E) 
 // const nomeItens = produtos.filter((item) => { 
@@ -102,15 +102,26 @@ const produtos = [
 
 // console.log(frase)
 
-//  const nomeDosDogs = pets.filter((item, index, array) => {
-//       return item.raca === "Poodle" 
-//    })
-   
-//    const imprimirMsg = nomeDosDogs.map((item) => {
-//       return `Você ganhou um cupom de desconto de 10% para tosar o: ${item.nome}`
 
+// Desafios
 
-//    })
+const pokemons = [
+   { nome: "Bulbasaur", tipo: "grama" },
+   { nome: "Bellsprout", tipo: "grama" },
+   { nome: "Charmander", tipo: "fogo" },
+   { nome: "Vulpix", tipo: "fogo" },
+   { nome: "Squirtle", tipo: "água" },
+   { nome: "Psyduck", tipo: "água" },
+]
+//A)
+// const pokemonsNovos = pokemons.map((item) => {
+//    return item.nome
+// })
+// console.log(pokemonsNovos.sort())
 
+//B)
+const pokemonsNovos = pokemons.map((item) => {
+   return item.nome
+})
 
-//    console.log(imprimirMsg)
+console.log(pokemonsNovos.sort())
