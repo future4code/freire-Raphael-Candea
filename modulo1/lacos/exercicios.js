@@ -72,12 +72,12 @@
 //      }
 //      novaArray(arrayOrincipal)
 
-//D)
-let arrayOrincipal = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
+// //D)
+// let arrayOrincipal = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
 
-    for (i = 0; i < arrayOrincipal.length; i++){
+//     for (i = 0; i < arrayOrincipal.length; i++){
             
-         console.log(`O elemento index ${i} é ${arrayOrincipal[i]}`)
-            }
+//          console.log(`O elemento index ${i} é ${arrayOrincipal[i]}`)
+//             }
             
-//E)
+// //E)
