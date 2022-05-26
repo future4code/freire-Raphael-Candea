@@ -52,7 +52,6 @@ div img {
 
 .container {
   height: 500px;
-  text-align: center;
 }
 
 .icone {
@@ -82,9 +81,10 @@ div img {
   color: #c44f00;
   padding: 100px 0;
   font-size: 60px;
-  text-align: center;
 }
-
+div {
+  align-items: center;
+}
 /**
   *
   *  ESTILOS COMPRAR 
