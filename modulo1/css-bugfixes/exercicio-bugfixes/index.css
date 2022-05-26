@@ -70,6 +70,11 @@ div img {
   padding-top: 100px;
 }
 
+#container-de-descricao p {
+  display: block;
+  margin: 50px auto 0px;
+  max-width: 23ch;
+}
 #container-de-descricao > ol {
   padding: 15px 0px;
   padding-top: 100px;
