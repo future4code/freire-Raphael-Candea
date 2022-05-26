@@ -30,7 +30,7 @@ nav {
 .funcionarios {
   display: inline;
   background-color: rgb(224, 143, 105);
-  margin-left: 4px;
+  text-align: center;
 }
 td {
   text-align: center;
