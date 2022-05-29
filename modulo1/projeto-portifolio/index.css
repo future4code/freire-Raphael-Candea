@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2? family= Tajawal:wght@800 & display=swap");
+@media only screen and (max-device-width: 900px) {
+  .menu {
+    width: 100%;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Tajawal", sans-serif;
+  color: #1e1e2a;
+}
+
+.header-container {
+  height: 15vh;
+  width: 99vw;
+  background-color: #dde2e2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 0 112px;
+  position: relative;
+  margin-left: 50;
+}
+
+.menu-nav {
+  margin-left: 1250px;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+}
+
+h1 {
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+h2 {
+  margin-left: 50px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.social-media {
+  margin-left: 50px;
+  margin-top: 1rem;
+  display: flex;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #1e1e2a;
+  padding: 1rem 4rem;
+  border: 1px solid #1e1e2a;
+  min-width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+}
+
+a:hover {
+  background-color: #919194;
+  font-weight: bold;
+}
+
+a:active {
+  background-color: #000808;
+  font-weight: bold;
+  color: white;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 25vh;
+  width: 93vw;
+  background-color: #dde2e2;
+  margin-top: 100px;
+  margin-left: 150;
+  text-align: center;
+  font-size: 30px;
+  text-align: justify;
+  padding: 50px 50px;
+  ;
+}
+.container-lista {
+  height: 25vh;
+  width: 100vw;
+  background-color: #fff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+
+}
+#lista {
+  padding-left: 100px;
+  font-size: 30px;
+}
+
+#lista-habilidades {
+  padding-left: 100px;
+  font-size: 30px;
+}
+.container-habillidades {
+  height: 35vh;
+  width: 100vw;
+  background-color: #a7a7b3;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+#img_redonda {
+  margin-top: 10px;
+  margin-left: 100px;
+  height: 100px;
+  height: 100px;
+  border-radius: 70%;
+  border: 5px black;
+}
+
+#jackblack {
+  margin-left: 100px;
+  color: #000808
+}
+/* Menu */
+
+.menu {
+  position: absolute;
+  top: 28px;
+  right: 30;
+  background-color: transparent;
+  height: 4px;
+  width: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 0px #fff;
+  font-family: sans-serif;
+}
+
+.menu-items {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+  transition: 400ms ease-in-out 0s;
+}
+.menu-items ul {
+  list-style-type: none;
+}
+
+.menu-items ul li a {
+  margin: 10px 0;
+  color: #1e1e2a;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 40px;
+}
+
+#titulo {
+  font-family: sans-serif;
+  color: #1e1e2a;
+  text-align: center;
+  margin-top: 100px;
+}
+
+fieldset {
+  border: 0px;
+}
+/* Contato */
+.conteudo {
+  background-color: #fff;
+  font-family: sans-serif;
+  font-size: 1em;
+  margin-left: 36%;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+input,
+select,
+textarea,
+button {
+  border-radius: 5px;
+}
+.campo {
+  margin-bottom: 1em;
+}
+
+.campo label {
+  margin-bottom: 0.2em;
+  color: #000808;
+  display: block;
+}
+
+fieldset.grupo .campo {
+  float: left;
+  margin-right: 1em;
+}
+
+.campo input[type="text"],
+campo input[type="email"],
+.campo textarea {
+  padding: 0.2em;
+  border: 1px #000808;
+  box-shadow: 2px 2px 2px #000808;
+}
+
+.campo select option {
+  padding-right: 1em;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+  background: gray;
+}
+
+.botao {
+  font-size: 1.2em;
+  background: gray;
+  border: 0;
+  margin-bottom: 1em;
+  color: white;
+  padding: 00.2em 0.6em;
+  box-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 1px black;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 50%);
+}
+
+.botao:hover {
+  background-color: #2f02b6;
+  box-shadow: inset 2px 2px 2px gray;
+  text-shadow: none;
+}
+
+.botao:active {
+  background-color: #fff;
+  color: #2f02b6;
+}
